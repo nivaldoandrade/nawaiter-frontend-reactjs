@@ -42,7 +42,7 @@ export function Login() {
             label="Senha"
             type={passwordShown ? 'text' : 'password'}
             placeholder="Informe sua senha"
-            icon={passwordShown ? EyeCloseIcon : EyeIcon}
+            icon={!passwordShown ? EyeCloseIcon : EyeIcon}
             onClick={togglePassword}
             error={errors.password?.message}
             {...register('password')}
