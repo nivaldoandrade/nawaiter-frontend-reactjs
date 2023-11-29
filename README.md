@@ -2,11 +2,9 @@
 # NAWAITER - Dashboard
 O Nawaiter é uma ferramenta incrível para otimizar a gestão de pedidos em restaurantes. Com ele, nós podemos facilmente criar, editar e remover usuários, mesas, categorias e produtos. O destaque é o dashboard em tempo real atualizados com os pedidos. Além disso, há uma seção para pedidos em aberto, podendo realizar o fechamento das ordens, e outra para o histórico completo de pedidos já realizados.
 
+## Demonstração
 
-
-
-
-
+[Vídeo de demonstração](https://youtu.be/F5rAZfgGepQ)
 
 
 ## Backend do dashboard
@@ -35,7 +33,7 @@ Entre no diretório do projeto
 Instale as dependências
 
 ```bash
-  yarn 
+  yarn
   ou
   npm install
 ```
